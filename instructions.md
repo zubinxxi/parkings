@@ -14,7 +14,7 @@ El modelo DEBE regirse estrictamente por los estándares y mejores prácticas de
 Utilizar **Composition API** y la sintaxis `<script setup>`. 
 Utilizar **vue-multiselect** para todos los campos de selección (Única y Multiple) referenciar [https://vue-multiselect.js.org/](https://vue-multiselect.js.org/).
 
-- **Diseño y UI (vue-pure-admin):** Seguir la estructura de componentes de Element Plus y la plantilla basada en [https://github.com/pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin). Usar el [proyecto精简 (thin)](https://github.com/pure-admin/pure-admin-thin) como base para el desarrollo real.
+- **Diseño y UI (vue-pure-admin):** Seguir la estructura de componentes de Element Plus y la plantilla basada en [https://github.com/pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) para todas las páginas y componentes del proyecto. 
 
 ## 3. Restricciones Técnicas del Entorno
 - Sistema Operativo: **Debian 13**.
@@ -35,7 +35,7 @@ El proyecto cuenta con skills especializadas en `.agents/skills/`. **ES OBLIGATO
 | **frontend-design** | Al crear componentes web, páginas, landing pages, dashboards, componentes React, o maquetación HTML/CSS. |
 | **interface-design** | Al diseñar dashboards, paneles de administración, apps o herramientas interactivas (NO para landing pages o sitios de marketing). |
 | **systematic-debugging** | **SIEMPRE** ante cualquier bug, fallo de tests o comportamiento inesperado, antes de proponer correcciones. |
-| **sc-security-module** | **SIEMPRE** al inicio del desarrollo del proyecto y al trabajar con autenticación, autorización RBAC, roles, permisos, grupos, usuarios del módulo de seguridad, o cualquier operación relacionada con `sec_*` / `sc_log`. |
+| **sc-security-module** | **SIEMPRE** al inicio del desarrollo del proyecto y al trabajar con autenticación, autorización RBAC, roles, permisos, grupos, usuarios del módulo de seguridad, o cualquier operación relacionada con `sec_*` / `sc_log`, debes usar **sc_security_skill.md**. |
 
 Regla: si la tarea coincide con el ámbito de una skill, se DEBE cargar dicha skill con la herramienta `skill` antes de comenzar a trabajar.
 
